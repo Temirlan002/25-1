@@ -1,10 +1,8 @@
 import { configureStore } from '@reduxjs/toolkit'
-import titleReducer from './titleSlice'
-import usersReducer from './usersSlice'
+import postsReducer from './PostsSlice'
 
 export const store = configureStore({
     reducer: {
-        titleReducer,
-        usersReducer
+        postsReducer
     }
 })

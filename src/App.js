@@ -1,11 +1,13 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import UsersPage from './pages/usersPage/UsersPage';
+import PostPage from './pages/postPage/PostPage';
+import CreatePostsPage from './pages/createPostsPage/CreatePostsPage';
+
 
 function App() {
   return (
     <div className='App'>
-      <UsersPage />
+      <CreatePostsPage />
     </div>
   );
 }
